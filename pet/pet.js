@@ -26,9 +26,9 @@ window.addEventListener('load', async () => {
     const id = searchParams.get('id');
 
     //   - if no id, redirect to list (home) page
-    // if (!id) {
-    //     location.assign('/');
-    // }
+    if (!id) {
+        location.assign('/');
+    }
     //  - otherwise, get the pet by id and store the error and pet data
     const response = await getPet(id);
     error = response.error;
