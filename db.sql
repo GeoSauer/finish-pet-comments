@@ -28,7 +28,7 @@ ALTER TABLE IF EXISTS public.comments
 GRANT ALL ON TABLE public.comments TO anon;
 
 GRANT ALL ON TABLE public.comments TO authenticated;
-
+                  
 GRANT ALL ON TABLE public.comments TO postgres;
 
 GRANT ALL ON TABLE public.comments TO service_role;
